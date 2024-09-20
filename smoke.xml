@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+	<groups><run>
+		<include name="Smoke"></include>
+	</run></groups>
+  <test  name="Test">
+    <classes>
+      <class name="syncronyzation.ExpliciteWaitTest"/>
+      <class name="locator.XpathLoopAndDynamicXpathForDarazBD"/>
+      <class name="pageObjectModel.LoginTest"/>
+      <class name="pf_WithPOM.PF_loginTest"/>
+      <class name="keyWordFaramework.Login_test"/>
+      <class name="locator.BasicXpathForDarazBD"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,25 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-13T22:53:51 BDT" name="Default suite" finished-at="2024-09-13T22:54:19 BDT" duration-ms="27864">
+  <suite started-at="2024-09-20T11:12:58 BDT" name="Smoke Suite" finished-at="2024-09-20T11:14:20 BDT" duration-ms="82744">
     <groups>
+      <group name="regression">
+        <method signature="Login_test.InValidLoginTest3()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" name="InValidLoginTest3" class="keyWordFaramework.Login_test"/>
+        <method signature="Login_test.ValidLoginTest()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" name="ValidLoginTest" class="keyWordFaramework.Login_test"/>
+      </group> <!-- regression -->
+      <group name="Funtionality">
+        <method signature="Login_test.InValidLoginTest2()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" name="InValidLoginTest2" class="keyWordFaramework.Login_test"/>
+        <method signature="Login_test.ValidLoginTest()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" name="ValidLoginTest" class="keyWordFaramework.Login_test"/>
+      </group> <!-- Funtionality -->
+      <group name="Smoke">
+        <method signature="Login_test.InValidLoginTest2()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" name="InValidLoginTest2" class="keyWordFaramework.Login_test"/>
+        <method signature="Login_test.InValidLoginTest3()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" name="InValidLoginTest3" class="keyWordFaramework.Login_test"/>
+        <method signature="Login_test.ValidLoginTest()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" name="ValidLoginTest" class="keyWordFaramework.Login_test"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-09-13T22:53:51 BDT" name="Default test" finished-at="2024-09-13T22:54:19 BDT" duration-ms="27864">
-      <class name="pageObjectModel.LoginTest">
-        <test-method is-config="true" signature="openDaraz()[pri:0, instance:pageObjectModel.LoginTest@36902638]" started-at="2024-09-13T22:53:51 BDT" name="openDaraz" finished-at="2024-09-13T22:54:18 BDT" duration-ms="26282" status="PASS">
+    <test started-at="2024-09-20T11:12:58 BDT" name="Test" finished-at="2024-09-20T11:14:20 BDT" duration-ms="82744">
+      <class name="keyWordFaramework.Login_test">
+        <test-method is-config="true" signature="openDaraz()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" started-at="2024-09-20T11:12:58 BDT" name="openDaraz" finished-at="2024-09-20T11:13:24 BDT" duration-ms="26335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openDaraz -->
-        <test-method signature="ValidLoginTest()[pri:0, instance:pageObjectModel.LoginTest@36902638]" started-at="2024-09-13T22:54:18 BDT" name="ValidLoginTest" finished-at="2024-09-13T22:54:19 BDT" duration-ms="1141" status="PASS">
+        <test-method signature="InValidLoginTest2()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" started-at="2024-09-20T11:13:24 BDT" name="InValidLoginTest2" finished-at="2024-09-20T11:13:25 BDT" duration-ms="1049" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidLoginTest -->
-        <test-method is-config="true" signature="closeDaraz()[pri:0, instance:pageObjectModel.LoginTest@36902638]" started-at="2024-09-13T22:54:19 BDT" name="closeDaraz" finished-at="2024-09-13T22:54:19 BDT" duration-ms="357" status="PASS">
+        </test-method> <!-- InValidLoginTest2 -->
+        <test-method is-config="true" signature="closeDaraz()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" started-at="2024-09-20T11:13:25 BDT" name="closeDaraz" finished-at="2024-09-20T11:13:25 BDT" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDaraz -->
-      </class> <!-- pageObjectModel.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="openDaraz()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" started-at="2024-09-20T11:13:25 BDT" name="openDaraz" finished-at="2024-09-20T11:13:52 BDT" duration-ms="26050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDaraz -->
+        <test-method signature="InValidLoginTest3()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" started-at="2024-09-20T11:13:52 BDT" name="InValidLoginTest3" finished-at="2024-09-20T11:13:53 BDT" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLoginTest3 -->
+        <test-method is-config="true" signature="closeDaraz()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" started-at="2024-09-20T11:13:53 BDT" name="closeDaraz" finished-at="2024-09-20T11:13:53 BDT" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDaraz -->
+        <test-method is-config="true" signature="openDaraz()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" started-at="2024-09-20T11:13:53 BDT" name="openDaraz" finished-at="2024-09-20T11:14:19 BDT" duration-ms="26128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDaraz -->
+        <test-method signature="ValidLoginTest()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" started-at="2024-09-20T11:14:19 BDT" name="ValidLoginTest" finished-at="2024-09-20T11:14:20 BDT" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTest -->
+        <test-method is-config="true" signature="closeDaraz()[pri:0, instance:keyWordFaramework.Login_test@18078bef]" started-at="2024-09-20T11:14:20 BDT" name="closeDaraz" finished-at="2024-09-20T11:14:20 BDT" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDaraz -->
+      </class> <!-- keyWordFaramework.Login_test -->
+    </test> <!-- Test -->
+  </suite> <!-- Smoke Suite -->
 </testng-results>
